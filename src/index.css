@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("/Font/Roboto-Regular.eot");
+  src: url("/Font/Roboto-Regular.eot") format("embedded-opentype"),
+    url("/Font/Roboto-Regular.woff2") format("woff2"),
+    url("/Font/Roboto-Regular.woff") format("woff"),
+    url("/Font/Roboto-Regular.ttf") format("truetype"),
+    url("/Font/Roboto-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #3D3D3D;
+  border-radius: 10px;
+}
